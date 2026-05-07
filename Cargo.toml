@@ -1,6 +1,6 @@
 [package]
 name = "ld2410c"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2024"
 description = "no_std async driver for the LD2410C radar sensor"
 license = "MIT OR Apache-2.0"
