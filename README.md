@@ -99,7 +99,7 @@ loop {
 The driver expects the standard LD2410C reporting frame:
 
 ```
-[F4 F3 F2 F1] [len_lo len_hi] [03 00] [status]
+[F4 F3 F2 F1] [len_lo len_hi] [data_type] [AA] [status]
 [mov_lo mov_hi] [mov_energy]
 [sta_lo sta_hi] [sta_energy]
 [det_lo det_hi]
@@ -107,6 +107,7 @@ The driver expects the standard LD2410C reporting frame:
 ```
 
 Frames shorter than 17 bytes or with a wrong header are silently discarded.
+Only target data is parsed (9 bytes between 0xAA HEAD and 0x55 TAIL) and stored into TargetData struct
 
 ## License
 
