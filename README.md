@@ -14,7 +14,7 @@ A `no_std` async driver for the LD2410C 24 GHz radar presence sensor.
 
 ```toml
 [dependencies]
-ld2410c = "0.1"
+ld2410c = "1.0.0"
 ```
 
 ## Usage
