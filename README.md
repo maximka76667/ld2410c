@@ -2,6 +2,8 @@
 
 A `no_std` async driver for the LD2410C 24 GHz radar presence sensor.
 
+<img width="804" height="800" alt="image" src="https://github.com/user-attachments/assets/e7c16f93-b781-423d-9471-469d645ae697" />
+
 ## Features
 
 - `no_std` — runs on bare-metal microcontrollers with no allocator required
